@@ -116,3 +116,15 @@ func Test189(t *testing.T) {
 	rotate(input, 2)
 	require.Equal(t, []int{3, 99, -1, -100}, input)
 }
+
+func Test2461(t *testing.T) {
+	require.Equal(t, 3, maximumSubarraySum([]int{1, 2, 2}, 2))
+}
+
+func Test121(t *testing.T) {
+	require.Equal(t, 5, maxProfit([]int{7, 1, 5, 3, 6, 4}))
+}
+
+func Test3(t *testing.T) {
+	require.Equal(t, 3, lengthOfLongestSubstring("abcabcbb"))
+}
