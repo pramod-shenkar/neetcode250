@@ -128,3 +128,28 @@ func Test121(t *testing.T) {
 func Test3(t *testing.T) {
 	require.Equal(t, 3, lengthOfLongestSubstring("abcabcbb"))
 }
+
+func Test209(t *testing.T) {
+	require.Equal(t, 2, minSubArrayLen(7, []int{2, 3, 1, 2, 4, 3}))
+}
+
+func Test22(t *testing.T) {
+	require.Equal(t, []string{"()"}, generateParenthesis(1))
+}
+
+func Test735(t *testing.T) {
+	require.Equal(t, []int{10}, asteroidCollision([]int{10, 2, -5}))
+}
+
+// []
+func Test739(t *testing.T) {
+	require.Equal(t, []int{1, 1, 4, 2, 1, 1, 0, 0}, dailyTemperatures([]int{73, 74, 75, 71, 69, 72, 76, 73}))
+}
+
+func Test71(t *testing.T) {
+	require.Equal(t, "/home", simplifyPath("/home/"))
+}
+
+func Test394(t *testing.T) {
+	require.Equal(t, "aaabcbc", decodeString("3[a]2[bc]"))
+}
